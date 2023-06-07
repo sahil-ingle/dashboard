@@ -1,0 +1,19 @@
+.dt{
+    text-align: right;
+}
+
+.para{
+    margin: 2px 0;
+}
+
+.amountcard{
+    border: 1px solid grey;
+    /* wid */
+}
+
+.selectperiod{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
