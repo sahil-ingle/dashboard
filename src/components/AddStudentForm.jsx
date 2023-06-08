@@ -106,7 +106,7 @@ const AddStudentForm = () => {
               value={title}
               onChange={(e) => setTitle(e.target.value)}
               style={{ ...styles.input,width: "58px", marginRight: "0px", borderTopRightRadius: "0px", borderBottomRightRadius: "0px" }}
-            >
+            > 
               <option value="title" disabled hidden>Select Title</option>
               <option value="Mr.">Mr.</option>
               <option value="Mrs.">Mrs.</option>
