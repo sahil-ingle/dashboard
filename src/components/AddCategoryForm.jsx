@@ -124,22 +124,28 @@ const styles = {
   formContainer: {
     padding: "20px",
     borderRadius: "4px",
+    flex: "none",
   },
 
   inputGroup: {
-    display: "flex",
     marginBottom: "10px",
     fontWeight: "bold",
+
   },
   label: {
     marginRight: "10px",
     padding: "10px",
+    marginBottom: "20px",
+    marginTop: "20px",
   },
   input: {
     padding: "5px",
     marginRight: "30px",
-    marginBottom: "30px",
-    marginLeft: "30px"
+    marginBottom: "20px",
+    marginLeft: "20px",
+    marginTop: "20px",
+    borderRadius: "5px",
+    borderColor: "#4d4d4d",
   },
   buttonContainer: {
     display: "flex",
@@ -153,4 +159,3 @@ const styles = {
     cursor: "pointer",
   },
 };
-
